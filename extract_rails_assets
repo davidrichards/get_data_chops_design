@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+# This will extract the latest work I've done in the Rails app, so we can update design in this project...
+
+require 'net/http'
+
+TARGET_URLS = %w(http://localhost:3000/assets/style.css http://localhost:3000/welcome/alternate)
+
+TARGET_URLS.each do |url|
+  uri = URI(url)
+  result = Net::HTTP.get(uri)
+  # Could save it here...but it has comments in it, plus the files won't match...plus the html will have a lot of references that I don't have in this project....
+end
