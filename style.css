@@ -1,0 +1,139 @@
+body {
+  background-color: #f6faf4;
+}
+
+h2.sub-header {
+  background-color: transparent;
+  color: #917D70;
+  margin-top: -30px;
+  margin-left: -10px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 10px;
+  color: #7a8c13;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  padding: 0 0.5em;
+  color: #FFFFFF;
+  background: #26ADE4;
+  margin-bottom: 10px;
+  font: {
+   size: 30px;
+   weight: bold;
+  }
+}
+
+p {
+  color: #3b332d;
+  font-size: 18px;
+}
+
+.top {
+  min-height: 400px;
+  background-color: #D1E751;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.bottom {
+  background-color: #000000;
+  padding: 3em 1em;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.bottom img {
+  border: none;
+  box-shadow: none;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.bottom p {
+  color: #FFFFFF;
+}
+
+.bottom h1, .bottom h2,
+.bottom h3, .bottom h4, 
+.bottom h5 {
+  color: #FFFFFF;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+img.highlight {
+  border: solid 2px #584b43;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px #917D70;
+}
+
+.copyright p{
+  text-align: center;
+}
+
+.signup {
+  background-color: #FFFFFF;
+  border: solid 1px #584b43;
+  padding: 9px 12px;
+}
+
+.signup p, li {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #a7978d;
+}
+
+.signup form {display: inline; position: relative; text-align: left;}
+.signup input {border:1px solid #999; -webkit-appearance:none;}
+.signup input[type=checkbox]{-webkit-appearance:checkbox;}
+.signup input[type=radio]{-webkit-appearance:radio;}
+.signup input:focus {border-color:#333;}
+.signup .button {clear:both; background-color: #917D70; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; }
+.signup .button:hover {background-color: lighen(#917D70, 10%);}
+.signup .small-meta {font-size: 14px;}
+.signup .nowrap {white-space:nowrap;}     
+.signup .clear {clear:none; display:inline;}
+
+.signup label {display:block; padding-bottom:10px; font-weight:bold;}
+.signup input.email {display:inline; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+.signup input.button {display:inline; margin:0 0 10px 0; min-width:90px;}
+
+.signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+.signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+.signup #mce-error-response {display:none;}
+.signup #mce-success-response {color:#529214; display:none;}
+.signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+/*#mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {clear:both; background-color: #aaa; border: 0 none; border-radius:4px; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: bold; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}     
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup input.email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+#mc_embed_signup input.button {display:block; width:35%; margin:0 0 10px 0; min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+*/
