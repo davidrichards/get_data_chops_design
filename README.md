@@ -1,6 +1,5 @@
-get_data_chops_design
-=====================
+Get Data Chops Design
+----------------------
 
-DAVID + AMIN => Working together on a project
+Re-committing to plain HTML and CSS...
 
-Nice!!  Perfect!!
