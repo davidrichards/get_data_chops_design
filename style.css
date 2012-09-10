@@ -204,3 +204,23 @@ img.highlight {
   text-align: right;
   margin-top: 10px;
 }
+
+.quotes p {
+  font-size: 18px;
+}
+
+.quotes a,
+.quotes a:hover,
+.quotes a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.quotes p:hover {
+  box-shadow: 1px 1px 2px #eee;
+  border-radius:10px;
+}
+
+.quotes span {
+ font-style: italic; 
+}
